@@ -20,4 +20,5 @@ The attacker applies a white-box Projected Gradient Descent (PGD) attack.
 ### Tasks:
 
 First, evaluate a simple baseline attack where the attacker sets the adversarial suffix to random byte values and appends this to the binary (i.e., not using PGD). Calculate the attack accuracy (the proportion of successfully misclassified malware samples in the victim/malware directory) if the size of the adversarial suffix is 5%, 10%, 15%, and 20% of the original binary file length! For each case, also provide the size of the adversarial mask |M|!
+
 Calculate the PGD attack accuracy (the proportion of successfully misclassified malware samples in the victim/malware directory) if the size of the adversarial suffix is 5%, 10%, 15%, and 20% of the original binary file length! For each case, also provide the size of the adversarial mask |M|!
